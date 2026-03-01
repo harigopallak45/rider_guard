@@ -1,0 +1,52 @@
+# ──────────────────────────────────────────────
+# Flutter — mobile_app/.gitignore
+# ──────────────────────────────────────────────
+
+# Dart / Pub
+.dart_tool/
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android specific
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+android/app/*.jks
+android/app/*.keystore
+android/app/src/release/
+
+# iOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+ios/GoogleService-Info.plist
+
+# macOS specific
+macos/Pods/
+macos/.symlinks/
+
+# Web
+web/favicon.png
+
+# Coverage
+coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
